@@ -1,0 +1,53 @@
+.abcheader{
+
+
+}
+
+.container1 {
+    position: relative;
+    text-align: center;
+    color: white;
+    
+  }
+  
+ 
+  .top-right {
+    position: absolute;
+    top: 100px;
+    right: 200px;
+    font-size: 30px;
+  }
+  
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+  
+  
+  .abcimg1{
+width:400px;
+height: 400px;
+  }
+  .main1{
+      padding-top: 100px;
+  }
+  .round1{
+    
+      border-radius: 10px;
+  }
+  .button11{
+      border-radius: 50px;
+      background-color: #5D71FF;
+      padding: 10px;
+      color: white;
+  }
+  .button111{
+    border-radius: 50px;
+    font-size: 20px;
+    width: 300px;
+    height: 60px;
+    background-color: #FC686A;
+    
+    color: white;
+}

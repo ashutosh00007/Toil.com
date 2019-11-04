@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="40" viewBox="0 0 35 40">
+    <defs>
+        <filter id="a" width="151.6%" height="147.2%" x="-25.8%" y="-22.2%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0.415686275 0 0 0 0 0.305882353 0 0 0 0 0.729411765 0 0 0 0.2 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <linearGradient id="b" x1="26.11%" y1="92.046%" y2="-13.918%">
+            <stop offset="0%" stop-color="#A976FF"/>
+            <stop offset="100%" stop-color="#FEA2CF"/>
+        </linearGradient>
+        <linearGradient id="e" x1="0%" x2="74.004%" y1="133.438%" y2="-13.88%">
+            <stop offset="0%" stop-color="#FF8C7B"/>
+            <stop offset="100%" stop-color="#FFF29B"/>
+        </linearGradient>
+        <path id="d" d="M3.875 20.432H15.5V8.757c6.42 0 11.625 5.227 11.625 11.675 0 6.449-5.205 11.676-11.625 11.676S3.875 26.881 3.875 20.432z"/>
+        <filter id="c" width="134.4%" height="134.3%" x="-17.2%" y="-8.6%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.577035502 0 0 0 0 0.228352966 0 0 0 0 0.577035502 0 0 0 0.3 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd" filter="url(#a)" transform="translate(2)">
+        <path fill="#FFCA82" d="M16.953 3.892V6.81h-2.906V3.89h-.969a.97.97 0 0 1-.969-.972V.973A.97.97 0 0 1 13.08 0h4.843a.97.97 0 0 1 .969.973v1.946a.97.97 0 0 1-.97.973h-.968z"/>
+        <g fill="#FFCA82">
+            <path d="M3.733 6.356l.831-.502a.97.97 0 0 1 1.333.332L7.646 9.11a.97.97 0 0 1-.331 1.327l-.831.502a.97.97 0 0 1-1.333-.332L3.402 7.683a.97.97 0 0 1 .331-1.327zM27.174 6.356l-.831-.502a.97.97 0 0 0-1.333.332L23.261 9.11a.97.97 0 0 0 .331 1.327l.832.502a.97.97 0 0 0 1.332-.332l1.75-2.924a.97.97 0 0 0-.332-1.327z"/>
+        </g>
+        <ellipse cx="15.5" cy="20.432" fill="url(#b)" rx="15.5" ry="15.568"/>
+        <use fill="#000" filter="url(#c)" xlink:href="#d"/>
+        <use fill="url(#e)" xlink:href="#d"/>
+    </g>
+</svg>
