@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Toil</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Handlee&display=swap" rel="stylesheet">
+    <script src="home.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+<style>
+    body{
+        background-image: url('blur-builders-building-159306.jpg');
+    }
+    .reqform{
+        height: 640px;
+            width: 450px;
+            margin: auto;
+  position: relative;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+  padding: 10px;
+  
+          background-color: #E4A770;
+}
+
+    .font{
+        font-family: 'Handlee', cursive;
+    }
+    .bold{
+        font-size: 40px;
+        font-weight: 900;
+    }
+    .formHead
+    {
+        
+    }
+    hr
+    {
+        font-size: 2px;
+        background-color: black;
+    }
+    .form
+    {
+        font-family: 'Handlee', cursive;
+        font-weight: bolder;
+    }
+  
+.reqform::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  box-shadow: 0 0px 30px rgba(204, 204, 204, 0.75);       
+  width: 90%; 
+  left: 5%; 
+  height: 100px;
+  bottom: 0;
+    
+}
+    .sub{
+        border: 0;
+        background-color: #296AEA;
+        font-size: 20px;
+    }
+</style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark  abcf">
+        <a class="navbar-brand" href="#">
+          <img src="logo1.png" width="30" height="30" alt="">TOIL
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+           
+            <li class="nav-item dropdown active">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Services
+              </a>
+      <div class="dropdown-menu" style="width:300px" aria-labelledby="navbarDropdown">
+          <div class="container container-sm">
+              <div class="row">
+                  <div class="col-sm-6">
+                      <a class="dropdown-item" href="#"><img class="navbar1" src="cleaning.png"> Cleaning</a>
+                      <a class="dropdown-item" href="#"><img class="navbar1" src="tutor.png"> Tutor</a>
+                      <a class="dropdown-item" href="#">Link 3</a>
+                  </div>
+                  <div class="col-sm-6">
+                      <a class="dropdown-item" href="#"><img class="navbar1" src="plumber.png"> Plumber</a>
+                      <a class="dropdown-item" href="#"><img class="navbar1" src="carpenter.jpg"> Carpenter</a>
+                      <a class="dropdown-item" href="#">Link6</a>
+                  </div>
+                          
+              </div>
+          </div>
+          </div>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="details.html">Employee Details</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="abc.html">Tutor</a>
+        </li>
+      </ul>
+      <a href="loginenroll.html">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">LogIn</button></a>
+      
+      </div>
+      </nav>
+      </header>
+
+
+<br>
+<br>
+
+<div class="reqform">
+      
+    <div class="formHead">
+         <strong class="font bold">Enrollment Form</strong>
+        <hr>
+        
+    </div>
+    
+    <form class="form">
+            
+        First Name:<br><input type="text"  ><br>
+        Last Name: <br><input type="text" ><br>
+        Phone : <br><input type="number" id="tel"><br>
+        E-Mail: <br><input type="text" ><br>
+        Aadhaar Card: <br><input type="digit" id="aad" ><br>
+        Experience: <br><input type="text" ><br>
+        Address: <br><input type="text" ><br>
+        Occupation: <br> <input type="radio" name="gender" value="Shift" onclick='change(["Cleaning", "Transporting", "Packaging", "Decorating","Pest Control"])'> Shifting Home
+        
+  <input type="radio" name="gender" value="Repair" onclick='change(["Electric", "Mobile Service","Computer Service" ,"Painter","Garderning","Glasswork","Water Filter"])'> Repair/Installment
+        
+  <input type="radio" name="gender" value="Lifes" onclick='change(["Massage", "Beautician", "Hair Stylist", "Mannicure/Pedicure","Yoga Trainer","Gym Trainer","Dietition"])'> Lifestyle<br>
+
+        
+        
+        
+<br>
+
+        <select id="sel" ><option value="" disabled selected>Select your option</option></select><br>
+        
+        <br><button class="sub" type="submit" onsubmit="return validate()">Submit</button >
+        
+    </form>
+    
+      
+      </div>
+
+      <footer class="page-footer font-small blue pt-4 footer">
+        <div class="container-fluid text-center text-md-left">
+          <div class="row">
+            <div class="col-md-6 mt-md-0 mt-3">
+              <img src="logo2.png" width="150px;">
+           </div>
+           <hr class="clearfix w-100 d-md-none pb-3">
+            <div class="col-md-3 mb-md-0 mb-3">
+              <h5 class="text-uppercase">Links</h5>
+              <ul class="list-unstyled">
+                <li>
+                  <a class="fa fa-facebook" href="#!"> Facebook</a>
+                </li>
+                <li>
+                  <a class="fa fa-google-plus" href="#!"> Gmail</a>
+                </li>
+                <li>
+                  <a class="fa fa-instagram" href="#!"> Instagram</a>
+                </li>
+                <li>
+                  <a class="fa fa-twitter" href="#!"> Twitter</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright text-center py-3">© 2019 Copyright:
+          <a href="#"> Toil Services Technologies India Pvt. Ltd.</a>
+        </div>
+      </footer>
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+
+function change(arr) {
+var el = document.getElementById('sel');
+el.options.length = 0;
+for(var i = 0; i< arr.length; i++ ) {
+el.options[el.options.length] = new Option( arr[i], arr[i]);
+}
+}
+function validate(){
+  var tel=document.getElementById("tel").value;
+  if(tel.length!=10){
+    alert('10 digits');
+    return false;
+  }
+}
+</script>
+
+
+
+        </body>
+</html>

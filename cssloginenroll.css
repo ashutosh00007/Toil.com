@@ -78,3 +78,25 @@ font-size: 14px;
     padding-left:50px;
   }
 
+  .ac{
+
+    outline: 1;
+width: 80%;
+border: 0;
+margin: 0 0 15px;
+padding: 10px;
+box-sizing: border-box;
+font-size: 14px;
+  }
+
+  .ab{
+
+    outline: 1;
+width: 18%;
+border: 0;
+margin: 0 0 15px;
+padding: 10px;
+box-sizing: border-box;
+font-size: 14px;
+  }
+
